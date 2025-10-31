@@ -1,0 +1,4 @@
+repository "SMASHING PUMPKINS 2025-10-30_18-41-31/SMASHING PUMPKINS@2475899995367@cloud"
+  path "/"
+    br "/main"
+    co "/main"
