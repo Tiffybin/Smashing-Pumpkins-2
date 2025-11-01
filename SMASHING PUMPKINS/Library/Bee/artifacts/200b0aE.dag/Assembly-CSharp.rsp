@@ -117,7 +117,6 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
--define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -126,6 +125,7 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_INPUT_SYSTEM
+-define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER
 -define:UNITY_POST_PROCESSING_STACK_V2
@@ -483,6 +483,9 @@
 "Assets/Scripts/Core/Simulation.cs"
 "Assets/Scripts/Core/Simulation.Event.cs"
 "Assets/Scripts/Core/Simulation.InstanceRegister.cs"
+"Assets/Scripts/Enemies/EnemyMovement.cs"
+"Assets/Scripts/Enemies/EnemySpawnPoint.cs"
+"Assets/Scripts/Enemies/HealthBar.cs"
 "Assets/Scripts/Gameplay/EnablePlayerInput.cs"
 "Assets/Scripts/Gameplay/EnemyDeath.cs"
 "Assets/Scripts/Gameplay/HealthIsZero.cs"
@@ -510,6 +513,7 @@
 "Assets/Scripts/Mechanics/TokenInstance.cs"
 "Assets/Scripts/Mechanics/VictoryZone.cs"
 "Assets/Scripts/Model/PlatformerModel.cs"
+"Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/UI/MainUIController.cs"
 "Assets/Scripts/UI/MetaGameController.cs"
 "Assets/Scripts/View/AnimatedTile.cs"
