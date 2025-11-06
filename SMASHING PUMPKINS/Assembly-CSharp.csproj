@@ -47,52 +47,21 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.2.9f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/Gameplay/PlayerSpawn.cs" />
+    <Compile Include="Assets/Scripts/Attacking/PlayerAttack.cs" />
     <Compile Include="Assets/Scripts/Enemies/HealthBar.cs" />
     <Compile Include="Assets/Scripts/Core/Simulation.InstanceRegister.cs" />
-    <Compile Include="Assets/Mod Assets/Mod Resources/Scripts/Platformer/Jiggler.cs" />
-    <Compile Include="Assets/Scripts/Gameplay/PlayerEnteredVictoryZone.cs" />
-    <Compile Include="Assets/Mod Assets/Mod Resources/Scripts/Platformer/EmitParticlesOnLand.cs" />
-    <Compile Include="Assets/Scripts/UI/MainUIController.cs" />
-    <Compile Include="Assets/Scripts/Gameplay/PlayerEnteredDeathZone.cs" />
-    <Compile Include="Assets/Scripts/Gameplay/HealthIsZero.cs" />
-    <Compile Include="Assets/Scripts/Mechanics/PatrolPath.Mover.cs" />
     <Compile Include="Assets/Scripts/Core/Fuzzy.cs" />
-    <Compile Include="Assets/Scripts/Mechanics/DeathZone.cs" />
-    <Compile Include="Assets/Scripts/Model/PlatformerModel.cs" />
     <Compile Include="Assets/Scripts/View/ParallaxLayer.cs" />
     <Compile Include="Assets/Scripts/Core/Simulation.Event.cs" />
-    <Compile Include="Assets/Scripts/Mechanics/EnemyController.cs" />
-    <Compile Include="Assets/Scripts/Gameplay/PlayerDeath.cs" />
-    <Compile Include="Assets/Scripts/Gameplay/PlayerTokenCollision.cs" />
-    <Compile Include="Assets/Scripts/Mechanics/VictoryZone.cs" />
-    <Compile Include="Assets/Scripts/Gameplay/PlayerEnemyCollision.cs" />
-    <Compile Include="Assets/Scripts/Mechanics/Health.cs" />
-    <Compile Include="Assets/Scripts/Mechanics/KinematicObject.cs" />
-    <Compile Include="Assets/Mod Assets/Mod Resources/Scripts/Platformer/PlatformerJumpPad.cs" />
     <Compile Include="Assets/Scripts/Core/HeapQueue.cs" />
-    <Compile Include="Assets/Scripts/Mechanics/SpawnPoint.cs" />
-    <Compile Include="Assets/Scripts/Gameplay/PlayerStopJump.cs" />
-    <Compile Include="Assets/Scripts/Mechanics/PlayAudioClip.cs" />
-    <Compile Include="Assets/Mod Assets/Mod Resources/Scripts/Platformer/PlatformerSpeedPad.cs" />
     <Compile Include="Assets/Scripts/Enemies/EnemyMovement.cs" />
-    <Compile Include="Assets/Scripts/Mechanics/AnimationController.cs" />
+    <Compile Include="Assets/Scripts/Attacking/AttackArea.cs" />
     <Compile Include="Assets/Scripts/Core/Simulation.cs" />
-    <Compile Include="Assets/Scripts/Mechanics/PatrolPath.cs" />
-    <Compile Include="Assets/Scripts/UI/MetaGameController.cs" />
+    <Compile Include="Assets/Scripts/Health.cs" />
     <Compile Include="Assets/Scripts/PlayerMovement.cs" />
-    <Compile Include="Assets/Scripts/Gameplay/EnablePlayerInput.cs" />
-    <Compile Include="Assets/Scripts/Gameplay/PlayerJumped.cs" />
-    <Compile Include="Assets/Scripts/Mechanics/TokenController.cs" />
-    <Compile Include="Assets/Scripts/Mechanics/TokenInstance.cs" />
-    <Compile Include="Assets/Mod Assets/Mod Resources/Scripts/Platformer/SimpleTrigger.cs" />
     <Compile Include="Assets/Scripts/Enemies/EnemySpawnPoint.cs" />
     <Compile Include="Assets/Mod Assets/Mod Resources/Scripts/Backend/TemplateEditorDetection.cs" />
-    <Compile Include="Assets/Scripts/Mechanics/GameController.cs" />
-    <Compile Include="Assets/Scripts/Gameplay/PlayerLanded.cs" />
     <Compile Include="Assets/Scripts/View/AnimatedTile.cs" />
-    <Compile Include="Assets/Scripts/Mechanics/PlayerController.cs" />
-    <Compile Include="Assets/Scripts/Gameplay/EnemyDeath.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

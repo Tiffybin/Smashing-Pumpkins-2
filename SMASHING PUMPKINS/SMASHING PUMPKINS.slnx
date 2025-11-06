@@ -2,5 +2,4 @@
   <Project Path="Assembly-CSharp.csproj" />
   <Project Path="Unity.2DPlatformer.Tutorials.csproj" />
   <Project Path="Unity.Platformer.Tutorials.csproj" />
-  <Project Path="Assembly-CSharp-Editor.csproj" />
 </Solution>
